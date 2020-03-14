@@ -1,0 +1,35 @@
+{
+  "name": "workshop-protractor",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Protractor",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "test": "npm run build && protractor dist/protractor/local.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianfelipe27/protractor-workshop-2018.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "protractor"
+  ],
+  "author": "Julian Gutierrez <juligury@gmail.com> (julianfelipe27)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianfelipe27/protractor-workshop-2018/issues"
+  },
+  "homepage": "https://github.com/julianfelipe27/protractor-workshop-2018#readme",
+  "dependencies": {
+    "protractor": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
+  }
+}
